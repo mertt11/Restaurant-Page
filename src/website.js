@@ -115,10 +115,12 @@ function loadWebsite(){
     const home=document.querySelector('.home');
     setActiveButton(home);  
     loadHome();  
+
+    content.appendChild(loadFooter()); 
     
     loadMain();
 
-    content.appendChild(loadFooter()); 
+    
    
 }
 

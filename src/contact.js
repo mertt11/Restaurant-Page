@@ -19,6 +19,6 @@ function loadContact(){
     contactMiddle.appendChild(contactimg1);
     contactimg1.classList.add('contact-img1');
   
-  }
+}
 
 export {loadContact}; 

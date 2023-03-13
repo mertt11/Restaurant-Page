@@ -40,7 +40,7 @@ body{
     padding: 0.5rem 0;
 }
 .contact,.menu,.home{
-    position: relative;
+    /* position: fixed; */
     font-family: inherit;
     background-color: inherit;
     color:white;
@@ -146,6 +146,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 0.4rem 0;
-    z-index: 1;
+    bottom:0;
     font-weight: 600;
+    position: fixed;
 }
